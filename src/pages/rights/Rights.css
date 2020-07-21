@@ -1,0 +1,17 @@
+.rights {
+    width: 100%;
+    height: 100%;
+
+}
+.vcenter {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;  
+    padding: 10px 0;
+}
+.bdtop{
+    border-top: 1px solid #eeeeee;
+}
+.bdbottom {
+    border-bottom: 1px solid #eeeeee;
+}
