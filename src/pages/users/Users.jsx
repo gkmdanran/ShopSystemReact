@@ -196,7 +196,7 @@ class Users extends Component {
       
     this.setState({editVisible: true,infos:infos},()=>{
       if(this.editformRef.current){
-        this.editformRef.current.resetFields();
+        this.editformRef.current.setFieldsValue({categoryName:'2'});
       }
     })
     
